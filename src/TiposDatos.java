@@ -1,7 +1,8 @@
 public class TiposDatos {
     public static void main(String[] args) {
         // Tipos de datos en Java.
-        // Enteros.
+
+        // Enteros
         byte tipoByte = 127; // Valor maximo ( -128 a 127 ) del tipo Byte.
         // tipo Byte = (byte)128 ( Para hacer la convercion) pero se perde la precision de los datos.
         System.out.println("tipoByte = " + tipoByte); // soutv: Imprimir nombre de la variable y la variable.
@@ -22,7 +23,26 @@ public class TiposDatos {
 
         double tipoDouble = 3.1315D; // La "D" es opcional
         System.out.println("tipoDouble = " + tipoDouble);
-        
+
+        // Caracter
+
+        char tipoChar = 'A'; // caracter del juego unicode
+        System.out.println("tipoChar = " + tipoChar);
+        tipoChar = 65;
+        System.out.println("tipoChar = " + tipoChar);
+        tipoChar = '@';
+        System.out.println("tipoChar = " + tipoChar);
+
+        // Tipo bolean
+        boolean tipoBolean = true;
+        System.out.println("tipoBolean = " + tipoBolean);
+        tipoBolean = false;
+        System.out.println("tipoBolean = " + tipoBolean);
+
+        String nombre = null;
+        System.out.println("nombre = " + nombre);
+        nombre = "Armandin";
+        System.out.println("nombre = " + nombre);
 
     }
 }
