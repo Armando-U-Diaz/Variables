@@ -8,7 +8,7 @@ public class AreaVolumen {
         double r, h, area, volumen;
         
         // Imprimir
-        System.out.println("Calcula el area y volumen de un cilindro");
+        System.out.println("Calcula el area y volumen_de un cilindro");
         
         // Leer
         r=Double.parseDouble(JOptionPane.showInputDialog("Ingresa el radio del cilindro."));
