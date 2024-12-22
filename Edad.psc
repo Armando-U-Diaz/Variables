@@ -1,5 +1,5 @@
 Algoritmo sin_titulo
-	Escribir "Ingresa tu a�o de nacimiento"
+	Escribir "ingresa tu a�o de nacimiento"
 	Definir fecha, edad Como Entero
 	Leer fecha
 	edad<-2024-fecha
