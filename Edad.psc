@@ -1,4 +1,4 @@
-Algoritmo sin_titulo
+Algoritmo sin_titulooo
 	Escribir "ingresa tu a�o de nacimiento"
 	Definir fecha, edad Como Entero
 	Leer fecha
